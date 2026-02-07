@@ -56,9 +56,7 @@ test-output
 *.sqlite3
 *.db
 
-# Logs
-*.log
-logs/
+
 
 # Optional: Video file (if large)
 # video-walkthrough.mp4
