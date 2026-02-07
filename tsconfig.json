@@ -1,6 +1,25 @@
 {
-  "extends": "./tsconfig.base.json",
   "compileOnSave": false,
-  "files": [],
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2020",
+    "module": "esnext",
+    "lib": ["ES2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "strictPropertyInitialization": false,
+    "paths": {
+      "@org/auth": ["libs/auth/src/index.ts"],
+      "@org/data": ["libs/data/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"],
   "references": []
 }
