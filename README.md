@@ -1074,17 +1074,11 @@ npx nx build dashboard --configuration=production
 
 ---
 
-## Contributing
-
-This is a coding challenge submission. For questions or feedback, please contact through the submission portal.
-
----
 
 ## License
 
 This project is submitted as part of a coding assessment and is not licensed for external use.
 
 ---
-
-**Built with dedication for the Full Stack Coding Challenge**  
+ 
 **Sneha Bejugam • February 2026**
