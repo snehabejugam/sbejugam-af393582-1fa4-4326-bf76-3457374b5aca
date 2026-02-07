@@ -38,11 +38,27 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# NX
 .nx/cache
 .nx/workspace-data
 .cursor/rules/nx-rules.mdc
 .github/instructions/nx.instructions.md
 
+# Angular
+.angular
 test-output
 
-.angular
+# Environment
+.env
+
+# Database (SQLite - DO NOT commit database files!)
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+
+# Optional: Video file (if large)
+# video-walkthrough.mp4
